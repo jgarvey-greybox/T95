@@ -9,7 +9,7 @@ void test_receive(int client_socket_descrp){
 	// File used to store data
 	FILE *file_pointer;
 	// Filename being created to hold recieved data
-	char *file_name = "/home/johng/Desktop/recieved_file.txt";
+	char *file_name = "/data/data/com.termux/files/home/test/recieved_file.txt";
 	// Data container
 	char data[SIZE];
 	
@@ -43,7 +43,7 @@ void test_receive(int client_socket_descrp){
 int main(){
 	
 	// IPv4 Address of server over local pc bat0 net interface
-	char *server_ip_addr = "169.254.15.179";
+	char *server_ip_addr = "192.168.1.9";
 	//Port number
 	int port_num = 8080;
 	
