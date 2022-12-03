@@ -33,7 +33,7 @@ void test_send(int client_socket_descriptor, FILE *file_pointer){
 int main(){
 		
 	// IPv4 Address of server over local pc bat0 net interface
-	char *server_ip_addr = "169.254.15.179";
+	char *server_ip_addr = "192.168.1.9";
 	int port_num = 8080;
 	
 	// File used to send data
